@@ -28,7 +28,7 @@ A simple, fast URL shortener built with Node.js, SQLite, and vanilla JavaScript.
 
 3. **Open in browser:**
    ```
-   http://localhost:3000
+   http://localhost:2020
    ```
 
 ### Docker Deployment
@@ -42,7 +42,7 @@ A simple, fast URL shortener built with Node.js, SQLite, and vanilla JavaScript.
 2. **Using Docker directly:**
    ```bash
    docker pull mahmoudyasser76/url-shortener:latest
-   docker run -d -p 3000:3000 -v $(pwd)/data:/app/data mahmoudyasser76/url-shortener:latest
+   docker run -d -p 2020:2020 -v $(pwd)/data:/app/data mahmoudyasser76/url-shortener:latest
    ```
 
 See [DOCKER_GUIDE.md](DOCKER_GUIDE.md) for detailed Docker instructions.
@@ -65,7 +65,7 @@ Shorten a URL.
 
 ```json
 {
-  "shortUrl": "http://localhost:3000/abc123",
+  "shortUrl": "http://localhost:2020/abc123",
   "shortCode": "abc123",
   "originalUrl": "https://example.com/very/long/path"
 }
@@ -126,7 +126,7 @@ Get statistics for a shortened URL.
 
 - `DB_PATH` - Database file path (default: `./urls.db`)
 - `NODE_ENV` - Node environment
-- `PORT` - Server port (default: 3000)
+- `PORT` - Server port (default: 2020)
 
 ## Project Structure
 

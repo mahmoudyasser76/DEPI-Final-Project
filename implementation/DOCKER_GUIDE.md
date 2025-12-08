@@ -28,10 +28,10 @@ This will:
 ### 2. Test the Image Locally (Optional but Recommended)
 
 ```bash
-docker run -d -p 3000:3000 --name url-shortener-test mahmoudyasser76/url-shortener:latest
+docker run -d -p 2020:2020 --name url-shortener-test mahmoudyasser76/url-shortener:latest
 ```
 
-Then visit `http://localhost:3000` to verify it works.
+Then visit `http://localhost:2020` to verify it works.
 
 To stop and remove the test container:
 
@@ -80,7 +80,7 @@ Anyone can pull and run your image:
 
 ```bash
 docker pull mahmoudyasser76/url-shortener:latest
-docker run -d -p 3000:3000 -v $(pwd)/data:/app/data mahmoudyasser76/url-shortener:latest
+docker run -d -p 2020:2020 -v $(pwd)/data:/app/data mahmoudyasser76/url-shortener:latest
 ```
 
 ## Files Created
