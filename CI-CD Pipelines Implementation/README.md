@@ -162,7 +162,7 @@ OBSERVABILITY & MONITORING
 
 - Docker
 - Node.js
-- PostgreSQL
+- SQLite
 - Jenkins
 - Trivy
 
@@ -294,11 +294,7 @@ https://hub.docker.com/repository/docker/ahmedlebshten/url-shortener/general
 
 Create image form Dockerfile, build, push it to DockerHub
 
-<b> 📬 Contact </b> 
-
-- GitHub: [https://github.com/Ahmedlebshten]
-- LinkedIn: [https://www.linkedin.com/in/ahmedlebshten]
-- Email: [ahmedlebshtenlebshten@gmail.com]
+<br>
 
 <div align="center">
 ⭐ Star this project if you find it useful!
